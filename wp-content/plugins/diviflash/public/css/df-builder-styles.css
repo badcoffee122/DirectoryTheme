@@ -1,0 +1,194 @@
+.et-fb-settings-options-tab [class^="difl_"] svg,
+.et-fb-settings-options-tab .df_adh_heading svg,
+.et-fb-settings-options-tab .dfadh_heading_anim svg,
+.et-fb-settings-options-tab .df_gravity_form svg
+{
+    max-width: 20px;
+    margin: 0 auto;
+}
+.et-fb-settings-options-tab [class^="difl_"],
+.et-fb-settings-options-tab .df_adh_heading,
+.et-fb-settings-options-tab .dfadh_heading_anim,
+.et-fb-settings-options-tab .df_gravity_form
+{
+    background-image: url('/wp-content/plugins/diviflash/public/css/img/flash.png') !important;
+    background-size: initial !important;
+    background-repeat: no-repeat !important;
+    background-position: 4px 2px !important;
+}
+/* Only Builder */
+.df-product-outer-wrap .df-item-wrap.null_item_builder{
+    display: none !important;
+}
+p:empty {
+    display: none;
+}
+
+@media (min-width: 981px) { 
+    [data-item="1"] .swiper-slide{
+        width: calc(100%/1);
+    }
+    [data-item="2"] .swiper-slide{
+        width: calc(100%/2);
+    }
+    [data-item="3"] .swiper-slide{
+        width: calc(100%/3);
+    }
+    [data-item="4"] .swiper-slide{
+        width: calc(100%/4);
+    }
+    [data-item="5"] .swiper-slide{
+        width: calc(100%/5);
+    }
+    [data-item="6"] .swiper-slide{
+        width: calc(100%/6);
+    }
+    [data-item="7"] .swiper-slide{
+        width: calc(100%/7);
+    }
+}
+@media (max-width: 980px) and (min-width: 768px) {
+    [data-itemtablet="1"] .swiper-slide{
+        width: calc(100%/1);
+    }
+    [data-itemtablet="2"] .swiper-slide{
+        width: calc(100%/2);
+    }
+    [data-itemtablet="3"] .swiper-slide{
+        width: calc(100%/3);
+    }
+    [data-itemtablet="4"] .swiper-slide{
+        width: calc(100%/4);
+    }
+    [data-itemtablet="5"] .swiper-slide{
+        width: calc(100%/5);
+    }
+    [data-itemtablet="6"] .swiper-slide{
+        width: calc(100%/6);
+    }
+    [data-itemtablet="7"] .swiper-slide{
+        width: calc(100%/7);
+    }
+}
+@media (max-width: 767px) {
+    [data-itemphone="1"] .swiper-slide{
+        width: calc(100%/1);
+    }
+    [data-itemphone="2"] .swiper-slide{
+        width: calc(100%/2);
+    }
+    [data-itemphone="3"] .swiper-slide{
+        width: calc(100%/3);
+    }
+    [data-itemphone="4"] .swiper-slide{
+        width: calc(100%/4);
+    }
+    [data-itemphone="5"] .swiper-slide{
+        width: calc(100%/5);
+    }
+    [data-itemphone="6"] .swiper-slide{
+        width: calc(100%/6);
+    }
+    [data-itemphone="7"] .swiper-slide{
+        width: calc(100%/7);
+    }
+}
+
+/* CPT and blog Styles */
+.df-item-wrap {
+    overflow: hidden;
+    position: relative;
+}
+.df-item-wrap *:not(.et_pb_background_pattern):not(.et_pb_background_mask):not(.df-overlay):not(.df-icon-wrap) {
+    position: relative;
+}
+.df-acf-field-inner {
+    display: inherit;
+}
+
+
+/* menu styles */
+/* #top-menu a {
+    display: flex !important;
+    align-items: center;
+    gap: 4px;
+} */
+
+/* flex masonary */
+.flexmasonry {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+}
+
+.flexmasonry-item { width: 100%; display: block;}
+.flexmasonry-cols-2 .flexmasonry-item { width: 50%; }
+.flexmasonry-cols-3 .flexmasonry-item { width: 33.333%; }
+.flexmasonry-cols-4 .flexmasonry-item { width: 25%; }
+.flexmasonry-cols-5 .flexmasonry-item { width: 20%; }
+.flexmasonry-cols-6 .flexmasonry-item { width: 16.666%; }
+.flexmasonry-cols-7 .flexmasonry-item { width: 14.285%; }
+.flexmasonry-cols-8 .flexmasonry-item { width: 12.5%; }
+
+.flexmasonry-cols-2 .flexmasonry-item:nth-child(2n+1) { order: 1; }
+.flexmasonry-cols-2 .flexmasonry-item:nth-child(2n)   { order: 2; }
+
+.flexmasonry-cols-3 .flexmasonry-item:nth-child(3n+1) { order: 1; }
+.flexmasonry-cols-3 .flexmasonry-item:nth-child(3n+2) { order: 2; }
+.flexmasonry-cols-3 .flexmasonry-item:nth-child(3n)   { order: 3; }
+
+.flexmasonry-cols-4 .flexmasonry-item:nth-child(4n+1) { order: 1; }
+.flexmasonry-cols-4 .flexmasonry-item:nth-child(4n+2) { order: 2; }
+.flexmasonry-cols-4 .flexmasonry-item:nth-child(4n+3) { order: 3; }
+.flexmasonry-cols-4 .flexmasonry-item:nth-child(4n)   { order: 4; }
+
+.flexmasonry-cols-5 .flexmasonry-item:nth-child(5n+1) { order: 1; }
+.flexmasonry-cols-5 .flexmasonry-item:nth-child(5n+2) { order: 2; }
+.flexmasonry-cols-5 .flexmasonry-item:nth-child(5n+3) { order: 3; }
+.flexmasonry-cols-5 .flexmasonry-item:nth-child(5n+4) { order: 4; }
+.flexmasonry-cols-5 .flexmasonry-item:nth-child(5n)   { order: 5; }
+
+.flexmasonry-cols-6 .flexmasonry-item:nth-child(6n+1) { order: 1; }
+.flexmasonry-cols-6 .flexmasonry-item:nth-child(6n+2) { order: 2; }
+.flexmasonry-cols-6 .flexmasonry-item:nth-child(6n+3) { order: 3; }
+.flexmasonry-cols-6 .flexmasonry-item:nth-child(6n+4) { order: 4; }
+.flexmasonry-cols-6 .flexmasonry-item:nth-child(6n+5) { order: 5; }
+.flexmasonry-cols-6 .flexmasonry-item:nth-child(6n)   { order: 6; }
+
+.flexmasonry-cols-7 .flexmasonry-item:nth-child(7n+1) { order: 1; }
+.flexmasonry-cols-7 .flexmasonry-item:nth-child(7n+2) { order: 2; }
+.flexmasonry-cols-7 .flexmasonry-item:nth-child(7n+3) { order: 3; }
+.flexmasonry-cols-7 .flexmasonry-item:nth-child(7n+4) { order: 4; }
+.flexmasonry-cols-7 .flexmasonry-item:nth-child(7n+5) { order: 5; }
+.flexmasonry-cols-7 .flexmasonry-item:nth-child(7n+6) { order: 6; }
+.flexmasonry-cols-7 .flexmasonry-item:nth-child(7n)   { order: 7; }
+
+.flexmasonry-cols-8 .flexmasonry-item:nth-child(8n+1) { order: 1; }
+.flexmasonry-cols-8 .flexmasonry-item:nth-child(8n+2) { order: 2; }
+.flexmasonry-cols-8 .flexmasonry-item:nth-child(8n+3) { order: 3; }
+.flexmasonry-cols-8 .flexmasonry-item:nth-child(8n+4) { order: 4; }
+.flexmasonry-cols-8 .flexmasonry-item:nth-child(8n+5) { order: 5; }
+.flexmasonry-cols-8 .flexmasonry-item:nth-child(8n+6) { order: 6; }
+.flexmasonry-cols-8 .flexmasonry-item:nth-child(8n+7) { order: 7; }
+.flexmasonry-cols-8 .flexmasonry-item:nth-child(8n)   { order: 8; }
+
+.flexmasonry-break {
+    content: "";
+    flex-basis: 100%;
+    width: 0 !important;
+    margin: 0;
+}
+.flexmasonry-break-1 { order: 1; }
+.flexmasonry-break-2 { order: 2; }
+.flexmasonry-break-3 { order: 3; }
+.flexmasonry-break-4 { order: 4; }
+.flexmasonry-break-5 { order: 5; }
+.flexmasonry-break-6 { order: 6; }
+.flexmasonry-break-7 { order: 7; }
+
+/* builder */
+.et-fb-form__toggle .et-fb-subtoggle-tabs-container .et-fb-subtoggle-tab .et-fb-icon--search-box,
+.et-db #et-boc .et-l .et-fb-icon--search-box {
+    font-size: 15px;
+    font-family: FontAwesome!important;
+}

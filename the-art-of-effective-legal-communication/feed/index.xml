@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: The Art of Effective Legal Communication	</title>
+	<atom:link href="/the-art-of-effective-legal-communication/feed/" rel="self" type="application/rss+xml" />
+	<link>/the-art-of-effective-legal-communication/</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Jan 2024 07:23:33 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
+</channel>
+</rss>
